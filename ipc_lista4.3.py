@@ -4,7 +4,7 @@ c1 = 0
 c2 = 1
 soma = 0
 
-while c1 < v:
+while(c1 < v):
     x = float(input("Informe a nota do %dº bimestre:\n"%c2))
     notas.append(x)
     soma+=notas[c1]

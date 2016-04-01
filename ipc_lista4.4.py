@@ -1,13 +1,13 @@
 texto = raw_input("Informe uma palavra ou frase de 10 caracteres, espaços incluidos:\n")
 cont = 0
-v = len(texto)
+v = 10
 j = v
 soma = 0
 lista = []
 
-while cont < v:
+while(cont < v):
     j-=1
-    if texto[cont] == "a" or texto[cont] == "e" or texto[cont] == "i" or texto[cont] == "o" or texto[cont] == "u" or texto[cont] == " ":
+    if(texto[cont] == "a" or texto[cont] == "e" or texto[cont] == "i" or texto[cont] == "o" or texto[cont] == "u" or texto[cont] == " "):
         soma = soma
     else:
         soma+=1
